@@ -22,6 +22,16 @@ A real-time chat application built in C, supporting text messaging, file transfe
 - `compile_windows.bat`: One-click compile script for Windows.
 - `INSTRUCTIONS.md`: Detailed user guide.
 
+## 🔑 Demo Accounts
+These users are pre-configured in `users.txt`. You can add more there.
+
+| Username | Password |
+| :--- | :--- |
+| `admin` | `admin123` |
+| `user1` | `pass1` |
+| `user2` | `pass2` |
+| `khan` | `1234` |
+
 ## 🎥 Video Calling Note
 On **Windows**, you must replace `"Integrated Camera"` in `client.c` (line ~60) with your actual webcam name correctly found via `ffmpeg -list_devices true -f dshow -i dummy`.
 
