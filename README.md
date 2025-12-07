@@ -24,3 +24,25 @@ A real-time chat application built in C, supporting text messaging, file transfe
 
 ## 🎥 Video Calling Note
 On **Windows**, you must replace `"Integrated Camera"` in `client.c` (line ~60) with your actual webcam name correctly found via `ffmpeg -list_devices true -f dshow -i dummy`.
+
+## 🛠️ Installing Git on Windows
+
+If you need to clone this repo on Windows, you must install Git first.
+
+### Option 1: Command Line (Easiest)
+Open PowerShell or CMD and run:
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
+### Option 2: Manual Installer
+1.  Download from [git-scm.com/download/win](https://git-scm.com/download/win).
+2.  Run the installer and keep clicking "Next" (Default settings are fine).
+3.  Ensure **"Git from the command line"** is selected during setup.
+
+### Check Installation
+Open a new terminal and run:
+```bash
+git --version
+```
+If you see a version number, you are ready to clone!
